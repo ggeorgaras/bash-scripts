@@ -12,9 +12,9 @@ function install_emacs_download {
         git clone git://git.savannah.gnu.org/emacs.git
     else
         cd emacs
-        git pull
     fi
-    git checkout emacs-26.3
+    git pull
+    git checkout emacs-27.1
 
     popd
 }
